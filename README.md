@@ -5,13 +5,12 @@
 Anconda 
   ### 注意：具体的 cuda，cudnn 和 tensorflow  根据自己的显卡来选择对应版本！
   ```python
-  dawdaw
-  ```
   1. conda create --name TF2.1 python==3.7
   2. conda activate TF2.1
   3. conda install cudatoolkit=11
   4. conda install cudnn=7.6
   5. pip install tensorflow==2.6
+  ```
   
  ## 2.使用方式
  1. 将图片数据(*.jpg)与标注数据(*.xml)分别放置在 dataset/images dataset/annotations 下
