@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 21 19:00:56 2018
-
-@author: wmy
-"""
-
-
 from PIL import Image, ImageFont, ImageDraw
 from timeit import default_timer as timer
 
